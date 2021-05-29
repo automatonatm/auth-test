@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5780106-4333-46d1-8f0a-c1067114ed03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__test__/utils/mongoose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__test__/utils/response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__test__/integration/auth/email-confirmation.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__test__/middleware/auth.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/server/middleware/auth.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__test__/server/models/user.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/server/models/user.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__test__/validators/login.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/server/validators/login.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__test__/integration/auth/register.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/integration/auth/register.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,57 +20,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__test__/server/middleware/auth.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#33#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__test__/utils/response.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/middleware/auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__test__/utils/mongoose.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__test__/server/models/user.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="252">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="59" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__test__/integration/auth/register.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#34#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/controllers/auth.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/validators/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__test__/integration/auth/email-confirmation.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -98,7 +116,6 @@
       <list>
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/__test__/servers/models/user.test.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/__mocks__/@fullstackjs.js" />
         <option value="$PROJECT_DIR$/__mocks__/@fullstackjs/mail.js" />
         <option value="$PROJECT_DIR$/server/validators/login.js" />
@@ -113,10 +130,16 @@
         <option value="$PROJECT_DIR$/__test__/server/models/user.test.js" />
         <option value="$PROJECT_DIR$/__test__/server/validators/login.test.js" />
         <option value="$PROJECT_DIR$/__test__/server/middleware/auth.test.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/__test__/integration/auth/register.test.js" />
+        <option value="$PROJECT_DIR$/server/validators/register.js" />
+        <option value="$PROJECT_DIR$/server/controllers/auth.controller.js" />
+        <option value="$PROJECT_DIR$/__test__/integration/auth/email-confirmation.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1" />
     <option name="width" value="1045" />
     <option name="height" value="1174" />
@@ -134,19 +157,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-test" type="462c0819:PsiDirectoryNode" />
               <item name="__test__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="__test__" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +175,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/__test__" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/__test__/integration/auth" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,11 +183,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__test__/integration/auth" />
+      <recent name="C:\xampp\htdocs\auth\__test__" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\auth\__test__\server" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\auth\__test__" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,58 +203,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="The auth middleware model .return 401 if auth fails" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.test:e2e">
+    <configuration name="The email verification process.it confirms a user email" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/server/middleware/auth.test.js" />
+      <test-file value="$PROJECT_DIR$/__test__/integration/auth/email-confirmation.test.js" />
       <test-names>
-        <test-name value="The auth middleware model " />
-        <test-name value="return 401 if auth fails" />
+        <test-name value="The email verification process" />
+        <test-name value="it confirms a user email" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="The auth middleware model .should return 401 if auth fails" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="The email verification process.returns a 422 if token is invalid" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/server/middleware/auth.test.js" />
+      <test-file value="$PROJECT_DIR$/__test__/integration/auth/email-confirmation.test.js" />
       <test-names>
-        <test-name value="The auth middleware model " />
-        <test-name value="should return 401 if auth fails" />
+        <test-name value="The email verification process" />
+        <test-name value="returns a 422 if token is invalid" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="The auth middleware model " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="The register process.should return 422 if registration fails" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/__test__/server/middleware/auth.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/integration/auth/register.test.js" />
       <test-names>
-        <test-name value="The auth middleware model " />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="The user model" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/__test__/server/models/user.test.js" />
-      <test-names>
-        <test-name value="The user model" />
+        <test-name value="The register process" />
+        <test-name value="should return 422 if registration fails" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -250,13 +256,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test:e2e" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:e2e" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test:e2e" />
+        <item itemvalue="Jest.The email verification process.it confirms a user email" />
+        <item itemvalue="Jest.The email verification process.returns a 422 if token is invalid" />
+        <item itemvalue="Jest.The register process.should return 422 if registration fails" />
         <item itemvalue="npm.test" />
-        <item itemvalue="Jest.The user model" />
-        <item itemvalue="Jest.The auth middleware model " />
-        <item itemvalue="Jest.The auth middleware model .should return 401 if auth fails" />
-        <item itemvalue="Jest.The auth middleware model .return 401 if auth fails" />
       </list>
     </recent_temporary>
   </component>
@@ -272,56 +288,57 @@
       <updated>1622245258635</updated>
       <workItem from="1622245260387" duration="9329000" />
       <workItem from="1622272415207" duration="7928000" />
+      <workItem from="1622284784461" duration="7061000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="The_auth_middleware_model__return_401_if_auth_fails - 2021.05.29 at 09h 22m 16s.xml">
-      <configuration name="The auth middleware model .return 401 if auth fails" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_register_process_should_return_422_if_registration_fails - 2021.05.29 at 12h 37m 42s.xml">
+      <configuration name="The register process.should return 422 if registration fails" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_auth_middleware_model__return_401_if_auth_fails - 2021.05.29 at 09h 22m 36s.xml">
-      <configuration name="The auth middleware model .return 401 if auth fails" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_register_process_should_return_422_if_registration_fails - 2021.05.29 at 12h 37m 53s.xml">
+      <configuration name="The register process.should return 422 if registration fails" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_auth_middleware_model__should_return_401_if_auth_fails - 2021.05.29 at 09h 22m 51s.xml">
-      <configuration name="The auth middleware model .should return 401 if auth fails" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_returns_a_422_if_token_is_invalid - 2021.05.29 at 12h 46m 00s.xml">
+      <configuration name="The email verification process.returns a 422 if token is invalid" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_auth_middleware_model__should_return_401_if_auth_fails - 2021.05.29 at 09h 23m 40s.xml">
-      <configuration name="The auth middleware model .should return 401 if auth fails" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_returns_a_422_if_token_is_invalid - 2021.05.29 at 12h 46m 19s.xml">
+      <configuration name="The email verification process.returns a 422 if token is invalid" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_auth_middleware_model__should_return_401_if_auth_fails - 2021.05.29 at 09h 23m 54s.xml">
-      <configuration name="The auth middleware model .should return 401 if auth fails" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_returns_a_422_if_token_is_invalid - 2021.05.29 at 12h 46m 34s.xml">
+      <configuration name="The email verification process.returns a 422 if token is invalid" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_auth_middleware_model_ - 2021.05.29 at 09h 30m 41s.xml">
-      <configuration name="The auth middleware model " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_it_confirms_a_user_email - 2021.05.29 at 12h 51m 21s.xml">
+      <configuration name="The email verification process.it confirms a user email" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_auth_middleware_model_ - 2021.05.29 at 09h 41m 36s.xml">
-      <configuration name="The auth middleware model " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_it_confirms_a_user_email - 2021.05.29 at 12h 53m 55s.xml">
+      <configuration name="The email verification process.it confirms a user email" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_user_model - 2021.05.29 at 10h 26m 26s.xml">
-      <configuration name="The user model" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_it_confirms_a_user_email - 2021.05.29 at 12h 56m 15s.xml">
+      <configuration name="The email verification process.it confirms a user email" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_user_model - 2021.05.29 at 10h 26m 49s.xml">
-      <configuration name="The user model" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_it_confirms_a_user_email - 2021.05.29 at 12h 56m 50s.xml">
+      <configuration name="The email verification process.it confirms a user email" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="The_user_model - 2021.05.29 at 10h 27m 03s.xml">
-      <configuration name="The user model" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="The_email_verification_process_it_confirms_a_user_email - 2021.05.29 at 12h 57m 20s.xml">
+      <configuration name="The email verification process.it confirms a user email" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17257000" />
+    <option name="totallyTimeSpent" value="24318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1045" height="1174" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28774062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23351866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Learn" order="3" show_stripe_button="false" weight="0.32987553" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="RNConsole" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44957983" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +347,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4159664" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,13 +359,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/__test__/servers/models/user.test.js" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.env" />
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -357,13 +368,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__mocks__/@fullstackjs.js" />
-    <entry file="file://$PROJECT_DIR$/../Vigpin/API/config/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Vigpin/API/config/db.js" />
     <entry file="file://$PROJECT_DIR$/server/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -374,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -388,13 +386,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -421,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__mocks__/@fullstackjs/mail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -442,37 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__test__/utils/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__test__/utils/response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__test__/server/models/user.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__test__/server/validators/login.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -484,9 +437,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/utils/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/server/models/user.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/middleware/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="147">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -494,14 +464,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/utils/mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/__test__/server/middleware/auth.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="59" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#33#64#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/validation-schemas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/validators/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/auth.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/integration/auth/register.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#34#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/integration/auth/email-confirmation.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
