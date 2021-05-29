@@ -4,17 +4,17 @@
 
 import User from '@models/User'
 
-import mongoose from 'mongoose'
-
 import Bcrypt from 'bcryptjs'
 
 import jwt from 'jsonwebtoken'
 
 import config from '@config'
 
+import  {connect , disconnect} from  '@test/utils/mongoose'
 
 
-jest.setTimeout(30000)
+
+
 
 
 describe('The user model', () => {
@@ -28,13 +28,8 @@ describe('The user model', () => {
     let createdUser;
 
     beforeAll(async  () => {
-        const conn = await mongoose.connect('mongodb://localhost:27017/auth-auth_test', {
-            useNewUrlParser:  true,
-            useCreateIndex: true,
-            useFindAndModify: false,
-            useUnifiedTopology: true
-        });
 
+        await  connect()
          createdUser = await User.create(user)
     })
 
@@ -61,7 +56,7 @@ describe('The user model', () => {
 
 
     afterAll(async () => {
-        await mongoose.connection.close()
+        await disconnect()
     })
 
 });

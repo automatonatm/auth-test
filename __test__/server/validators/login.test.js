@@ -6,19 +6,7 @@
 
 import loginValidator from '@validators/login'
 
-class Response {
-    status(status) {
-        this.status = status
-
-        return this
-    }
-
-    json(data) {
-        return data
-    }
-
-}
-
+import Response from '@test/utils/response'
 
 describe('the login validator', () => {
     it('should call next function if login succeeds', async () => {
@@ -27,7 +15,7 @@ describe('the login validator', () => {
                 email: 'test@mail.com',
                 password: 'password'
             }
-        }
+        };
 
         const res = {}
 
@@ -58,6 +46,7 @@ describe('the login validator', () => {
         await loginValidator(req, res, next)
 
         expect(statusSpy).toHaveBeenCalledWith(422)
+
         expect(jsonSpy).toHaveBeenCalledWith({
             message: 'Validation failed.',
             data: {

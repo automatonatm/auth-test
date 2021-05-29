@@ -26,6 +26,7 @@ export default async (req, res, next) => {
         req.authUser = authUser
 
         return next()
+
     } catch (error) {
         return res.status(401).json({
             message: 'Unauthenticated.'
